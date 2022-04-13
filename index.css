@@ -1,0 +1,13 @@
+input {
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.textField_label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.action {
+  margin-top: 15px;
+}

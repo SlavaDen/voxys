@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Voxys test task" />
+  <title>VOXYS</title>
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <div>
+    <h1 id="howMuchTravel">Нужно выйти через: </h1>
+  </div>
+  <div>
+    <p>Входные параметры</p>
+  </div>
+  <div>
+    <label class="textField_label" for="currentTime">Текущее время (HH:MM)</label>
+    <input type="time" name="currentTime" id="currentTime">
+  </div>
+  <div>
+    <label class="textField_label" for="startTimeSend">Первая отправка (HH:MM)</label>
+    <input type="time" name="startTimeSend" id="startTimeSend">
+  </div>
+  <div>
+    <label class="textField_label" for="endTimeSend">Последняя отправка (HH:MM)</label>
+    <input type="time" name="endTimeSend" id="endTimeSend" value="01:00">
+  </div>
+  <div>
+    <label class="textField_label" for="intervalSend">Интервал отправки (MM)</label>
+    <input type="number" name="intervalSend" id="intervalSend">
+  </div>
+  <div>
+    <label class="textField_label" for="travelTime">Время до остановки (MM)</label>
+    <input type="number" name="travelTime" id="travelTime">
+  </div>
+  <div class="action">
+    <button>Применить</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
